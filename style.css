@@ -1,0 +1,120 @@
+body, html {
+    margin: 0;
+}
+.main-display {
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+    
+}
+
+.nav {
+    position: fixed;
+}
+.nav-btn {
+    display: inline-block;
+    list-style: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    padding: 15px 0 0 0;
+    
+}
+.nav-btn:hover {
+    cursor: pointer;
+    color: grey;
+} 
+
+.ham {
+    display: none;
+    background-color: white;
+    left: 1200px;
+    top: 10px;
+}
+
+.slideshow {
+    background-image: url('./img/001.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+    width: 100vw;
+    
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 42px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+.main-title:hover {cursor: context-menu;}
+.headline {
+    padding: 10px 10px 0 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.headline-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding-top: 20px;
+    justify-items: center;
+}
+
+.head-grid-copy {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.child>img {
+    width: 300px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.secondery-btn {
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 24px;
+}
+
+
+@media (min-width: 400px) and (max-width: 700px) {
+
+.slideshow {
+    height: 630px;
+    width: 100vw;
+    transition: 1s;
+    
+    }
+.nav-btn {
+    display: none;
+}
+
+.nav{
+    display: none;
+    }
+.main-title {
+    float: center;
+    transition: 1s;
+}
+}
