@@ -107,6 +107,11 @@ background: white;}
     border-radius: 24px;
 }
 
+
+.secondery-btn:hover {
+    cursor: pointer;
+}
+
 .background-img {
     background-image: url('./img/0015.jpg');
     height: 1000px; 
