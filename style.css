@@ -106,6 +106,7 @@ background: white;}
     width: 200px;
     height: 200px;
     display: grid;
+    border-radius:100px;
     
 }
 
